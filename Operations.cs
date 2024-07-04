@@ -14,9 +14,9 @@ public static class Operations
 
     public static double AddDivide(int a, int b, int c)
     {
-        if (Environment.GetEnvironmentVariable("WHOLE_DIVISION") == "disable")
+        if (c == 0)
         {
-            return (double)(a + b) / c;
+            throw new DivideByZeroException();
         }
 
         return (a + b) / c;

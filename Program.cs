@@ -1,5 +1,4 @@
 ﻿using static NactiData.Services.Operations;
-using static NactiData.Display.ConsoleDisplay;
 
 namespace NactiData
 {
